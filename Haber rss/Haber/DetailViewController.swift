@@ -67,7 +67,8 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.tintColor = UIColor.red
+        navigationController?.navigationBar.tintColor = UIColor(red: 181/255, green: 43/255, blue: 91/255, alpha: 1.0)
+
 
         titleLabel.text = newsTitle  // Başlık buraya
         dateLabel.text = newsDate
